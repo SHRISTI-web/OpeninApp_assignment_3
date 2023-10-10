@@ -24,3 +24,4 @@ statements = [
 
 def hinglish_translation(text):
      words = text.split()
+     translated_words = [translations.get(word, word) for word in words]
