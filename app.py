@@ -2,17 +2,17 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 translations = {
-    "Definitely": "मझु ेसि",
-    "share": "इस्तमे  ाल करनेके लि े",
+    "Definitely": "अवश्य",
+    "share": "साझा करें",
     "feedback": "प्रतिक्रिया",
     "comment": "टिप्पणी",
     "So": "तो",
     "big": "बड़ा",
     "video": "वीडियो",
-    "clearly": "स्पष  रूपसे",
+    "clearly": "स्पष रूप से",
     "mention": "उल्लेख करना",
     "products": "उत्पाद",
-    "waiting": "इंतजार",
+    "waiting": "in इंतजार",
     "bag": "बैग",
 }
 
@@ -28,4 +28,6 @@ def hinglish_translation(text):
      translated_text = " ".join(translated_words)
      return translated_text
 translated_statements = [hinglish_translation(statement) for statement in statements]
+for i, statement in enumerate(translated_statements, start=1):
+    print(f"{i}. {statement}") 
 

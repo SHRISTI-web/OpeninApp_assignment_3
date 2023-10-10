@@ -1,0 +1,17 @@
+Input:
+
+1. "Definitely share your feedback in the comment section."
+2. "So even if it's a big video, I will clearly mention all the products."
+3. "I was waiting for my bag."
+
+
+
+Output:
+
+[Running] python -u "c:\Users\shristi\Documents\GitHub\OpeninApp_assignment_3\app.py"
+
+1. अवश्य साझा करें your प्रतिक्रिया in the टिप्पणी section.
+2. तो even if it's a बड़ा video, I will स्पष रूप से उल्लेख करना all the products.
+3. I was in इंतजार for my bag.
+
+[Done] exited with code=0 in 0.093 seconds
