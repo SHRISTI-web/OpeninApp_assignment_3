@@ -26,3 +26,6 @@ def hinglish_translation(text):
      words = text.split()
      translated_words = [translations.get(word, word) for word in words]
      translated_text = " ".join(translated_words)
+     return translated_text
+translated_statements = [hinglish_translation(statement) for statement in statements]
+
