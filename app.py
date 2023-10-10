@@ -15,3 +15,9 @@ translations = {
     "waiting": "इंतजार",
     "bag": "बैग",
 }
+
+statements = [
+    "Definitely share your feedback in the comment section.",
+    "So even if it's a big video, I will clearly mention all the products.",
+    "I was waiting for my bag.",
+]
