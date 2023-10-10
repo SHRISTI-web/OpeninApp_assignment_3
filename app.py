@@ -21,3 +21,5 @@ statements = [
     "So even if it's a big video, I will clearly mention all the products.",
     "I was waiting for my bag.",
 ]
+
+def hinglish_translation(text):
